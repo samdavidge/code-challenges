@@ -1,6 +1,6 @@
 <?php
 
-include('Ceaser.class');
+include('Ceaser.php');
 
 $ceaser = new Ceaser\Ceaser();
 

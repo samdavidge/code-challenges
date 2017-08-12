@@ -1,6 +1,6 @@
 <?php
 
-include('Abbreviator.class');
+include('Abbreviator.php');
 
 ?>
 
