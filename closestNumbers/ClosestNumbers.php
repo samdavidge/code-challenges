@@ -28,11 +28,11 @@ class ClosestNumbers
 
       foreach ($this->values as $compareKey => $compareValue) {
 
-        if ($key === $compareKey) break;
+        if ($key === $compareKey) continue;
 
         $difference = abs($value - $compareValue);
 
-        if ($difference > $this->smallestDifference) break;
+        if ($difference > $this->smallestDifference) continue;
 
         if ($difference !== $this->smallestDifference) $this->closestPairs = array();
 
