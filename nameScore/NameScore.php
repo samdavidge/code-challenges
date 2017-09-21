@@ -37,7 +37,7 @@ class NameScore {
     }
 
     /**
-     * addNameToscore()
+     * addNameToScore()
      *
      * @param String $name
      * @param int $key
@@ -59,7 +59,7 @@ class NameScore {
     }
 
     /**
-     * getscore()
+     * getScore()
      *
      * @return int
      */
