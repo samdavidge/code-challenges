@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+body {
+  background: #384966;
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+  color: #c3d4db;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  padding-top: 10vh;
+  font-size: 60px;
+}
+
+#blocks {
+  margin: auto;
+  width: 315px;
+}
+
+.block {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.click {
+  color: orange;
+}
+
+.doubleClick {
+  color: #42f445;
+}
+
+.hover {
+  color: #f93ec1;
+}
+
+.clicked, .doubleClicked, .hovered {
+  background: #3c4e6d;
+}
+
+.clicked {
+  text-decoration: underline;
+}
+
+.doubleClicked {
+  text-decoration: overline;
+}
+
+.hovered {
+  text-decoration: line-through;
+}
+
+p {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
