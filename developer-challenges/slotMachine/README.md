@@ -1,4 +1,4 @@
-# Reduced String
+# Slot Machine
 
 ## Challenge #5
 
