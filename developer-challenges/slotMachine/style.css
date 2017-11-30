@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Iceland|VT323');
+
+body {
+  background: #101010;
+}
+
+#fruit-machine {
+  width: 300px;
+  height: 90vh;
+  max-height: 600px;
+  margin: auto;
+  background: #105a77;
+  border: 30px solid #041e28;
+  border-left: 30px solid #073142;
+  border-right: 30px solid #073142;
+}
+
+#jackpot {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Bungee Inline', cursive;
+  text-align: center;
+  font-size: 2em;
+  border: 3px dotted #af9e0c;
+  color: #b3d2dd;
+}
+
+#screen {
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'VT323', monospace;
+  font-size: 1.5em;
+  text-align: right;
+  background: #28e06e;
+  border: 10px solid #af9e0c;
+  border-top: 10px solid #91830a;
+  border-bottom: 10px solid #91830a;
+}
+
+#balance {
+  padding-right: 10px;
+}
+
+#coin-slot-casing {
+  position: relative;
+  width: 20%;
+  height: 10px;
+  left: 70%;
+  background: #5f6060;
+  border: 5px solid #3c3d3d;
+  border-left: 5px solid #505151;
+  border-right: 5px solid #505151;
+}
+
+#coin-slot {
+  position: relative;
+  width: 60%;
+  height: 4px;
+  top: 3px;
+  background: #2f3030;
+  margin: auto;
+}
+
+#reels {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  background: #fff;
+  border: 10px solid #af9e0c;
+  border-top: 10px solid #91830a;
+  border-bottom: 10px solid #91830a;
+}
+
+.reel {
+  display: inline-block;
+  width: 31%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#reel-1 {
+  border-right: 1px solid #000;
+}
+
+#reel-3 {
+  border-left: 1px solid #000;
+}
+
+.fa-star {
+  color: #f4c242;
+}
+
+.fa-heart {
+  color: #f44141;
+}
+
+.fa-bell {
+  color: #9e9324;
+}
+
+.fa-diamond {
+  color: #d6d6d6;
+}
+
+.fa-money {
+  color: #54a04d;
+}
+
+#controls {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  font-family: 'Iceland', cursive;
+  font-size: 1.3em;
+}
+
+.button {
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+  text-align: center;
+  float: right;
+  background: #cc2626;
+  border: 10px solid #4f0808;
+  border-left: 10px solid #700b0b;
+  border-right: 10px solid #700b0b;
+  color: #fff;
+}
+
+.winner {
+  box-shadow: 0 0 20px #af9e0c;
+}
+
+.winner-button {
+  box-shadow: 0 0 20px #cc2626;
+}
